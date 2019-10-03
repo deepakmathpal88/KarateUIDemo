@@ -12,5 +12,5 @@ Feature: browser automation 1
 
     Given driver 'https://google.com'
     And driver.maximize()
-    Then match driver.title == 'Google'
+    Then match driver.title == 'Google' // This will not work with 0.9.4
 
